@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(45, 122, 170);
+  color: white;
+  height: 90px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header p,
+h1 {
+  margin: 10px;
+}
+
+a {
+  color: #00b7ff;
+  margin: 20px;
+  text-align: center;
+}
+
+.messageBlock {
+  margin: 20px 0px 20px 0px;
+  padding: 25px;
+  width: 750px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.author,
+.date {
+  color: rgb(45, 122, 170);
+  font-size: 0.8rem;
+}
+
+form {
+  width: 300px;
+  height: 450px;
+  margin: 50px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  padding-top: 20px;
+}
+
+#messageBody {
+  height: 200px;
+  width: 260px;
+}
+
+button {
+  margin-top: 30px;
+}
+
+h2 {
+  color: rgb(45, 122, 170);
+}
+
+form h2 {
+  margin: 0px;
+  font-size: 2rem;
+  text-align: center;
+}
